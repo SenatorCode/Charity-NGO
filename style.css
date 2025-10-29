@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Space Mono', monospace;
+}
+
+.hero-section {
+    background-color: rgb(42 94 84);
+
+}
+
+.nav {
+    display: flex;
+    padding: 30px 45px;
+    align-items: flex-start;
+}
+
+.right-items {
+    display: flex;
+    margin-left: auto;
+    gap: 35px;
+    color: azure;
+    align-items: center;
+    font-size: large;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(253 224 71);
+}
+
+.hero-section button {
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(42 94 84);
+    font-size: large;
+    background-color: rgb(253 224 71);
+    border: 0cm;
+    font-weight: bolder;
+}
+
+.image-container {
+    width: 650px;
+    height: 650px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    align-self: flex-start;
+  }
+
+  .info {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+  }
+
+  .text {
+    width: 45%;
+    height: 55%;
+  }
+
+  .main{
+    margin-top: 70px;
+  }
